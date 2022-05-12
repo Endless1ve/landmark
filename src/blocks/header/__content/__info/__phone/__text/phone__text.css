@@ -1,0 +1,5 @@
+.phone__text{
+    height: 27px;
+    margin: 0;
+    font-family: var( --global--font-secondary);
+}

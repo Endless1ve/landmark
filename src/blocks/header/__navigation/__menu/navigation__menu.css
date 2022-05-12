@@ -1,0 +1,8 @@
+@import './__element/menu__element.css';
+.navigation__menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 30px auto 0;
+}

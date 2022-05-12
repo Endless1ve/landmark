@@ -1,0 +1,5 @@
+:root{
+  --global--font-primary: var(--font-headings, -apple-system, BlinkMacSystemFont, Murecho Light, 'Exo 2', "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+  --global--font-secondary: var(--font-base, -apple-system, BlinkMacSystemFont, Murecho Regular, 'Exo 2', "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+  --global--font-third: var(--font-base, -apple-system, BlinkMacSystemFont, Roboto, 'Exo 2', "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+}

@@ -7,10 +7,50 @@
 </head>
 <body>
     <header class="header">
-        <img src="" alt="Логотип" class="header__logo">
-        <div class="header__content"></div>
+        <img src="<%=require('./images/logo.png')%>" alt="Логотип" class="header__logo">
+
+        <div class="header__content">
+
+            <div class="content__info">
+                <input type="text" class="info__search" placeholder="Чем я могу Вам помочь?">
+
+                <div class="info__phone">
+                    <img src="<%=require('./images/phone.png')%>" alt="" class="phone__image">
+                    <p class="phone__text">+7(495) 647-69-29</p>
+                </div>
+
+                <div class="info__lang">
+                    <p class="lang__button">RU</p>
+                    <p class="lang__button">EN</p>
+                </div>
+
+            </div>
+
+            <nav class="header__navigation">
+                <ul class="navigation__menu">
+                    <a href="#" class="menu__element">О фирме <div class="arrow"></div></a>
+                    <a href="#" class="menu__element">Услуги<div class="arrow"></div></a>
+                    <a href="#"class="menu__element">Команда<div class="arrow"></div></a>
+                    <a href="#" class="menu__element">Клиенты/Проекты<div class="arrow"></div></a>
+                    <a href="#" class="menu__element">Пресс-центр<div class="arrow"></div></a>
+                    <a href="#" class="menu__element">Карьера<div class="arrow"></div></a>
+                </ul>
+            </nav>
+
+        </div>
     </header>
-    <h1>Hello</h1>
+
+    <section class="about">
+        <h2 class="about__title">О юридической фирме LANDMARK</h2>
+        <div class="about__content">
+            <p class="content__text"></p>
+            <div class="content__directions">
+                <div class="directions__content">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="<%= htmlWebpackPlugin.files.js %>"></script>
 </body>
 </html> 

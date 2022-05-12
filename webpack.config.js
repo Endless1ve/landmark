@@ -2,13 +2,12 @@ const path = require('path'); //путь
 const MiniCssExtractPlugin = require("mini-css-extract-plugin"); // css
 const HtmlWebpackPlugin = require('html-webpack-plugin'); //html
 const WebpackMd5Hash = require('webpack-md5-hash'); //хэширование файлов
- 
 
 module.exports = {
     entry: { main: './src/index.js' }, //точка входа
     output: { //точка выхода
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].[chunkhash].js'
+        filename: '[name].[chunkhash].js',
     },
     devServer: {
         static: path.resolve(__dirname, 'dist'),
@@ -24,8 +23,30 @@ module.exports = {
                 {
                     test: /\.css$/,
                     use:  [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader']
-                } 
-            ]
+                },
+                {
+                    test: /\.(eot|svg|png|jpg|gif|ico)(\?v=[0-9]\.[0-9]\.[0-9])?$/i,
+                    use: [{
+                        loader: "file-loader",
+                        options: {
+                            outputPath: './images/',
+                            esModule: false,
+                        },
+                    }, ],
+                },
+                
+                {
+                    test: /\.(gif|png|jpe?g|svg)$/i,
+                    use: [{
+                        loader: "image-webpack-loader",
+                        options: {
+                            name: "[path][chunkhash].[ext]",
+                            bypassOnDebug: true,
+                            disable: false,
+                        },
+                    }, ],
+                },
+            ],
         },
         plugins: [
             new MiniCssExtractPlugin({

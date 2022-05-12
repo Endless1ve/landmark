@@ -1,0 +1,7 @@
+@import './__text/phone__text.css';
+@import './__image/phone__image.css';
+.info__phone{
+    display: flex;
+    margin-right: 40px;
+    margin-top: 7px;
+}

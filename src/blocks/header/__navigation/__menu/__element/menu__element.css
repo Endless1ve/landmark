@@ -1,0 +1,6 @@
+.menu__element{
+    font-family: var(--global--font-primary);
+    font-size: 20px;
+    line-height: 150%;
+    display: flex;
+}
