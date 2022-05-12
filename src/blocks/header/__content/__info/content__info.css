@@ -1,0 +1,8 @@
+@import './__search/info__search.css';
+@import './__phone/info__phone.css';
+@import './__lang/info__lang.css';
+
+.content__info{
+    display: flex;
+    margin-left: auto;
+}

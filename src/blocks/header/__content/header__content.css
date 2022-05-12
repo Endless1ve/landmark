@@ -1,0 +1,8 @@
+@import './__info/content__info.css';
+.header__content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-left: auto;
+}
