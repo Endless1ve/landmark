@@ -564,6 +564,84 @@
     display: flex;
     justify-content: space-around;
 }
+.feedback__text{
+    font-family: Murecho Regular, Arial, Helvetica, sans-serif ;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: #000000;
+}
+
+.feedback__text-popup{
+    margin: 30px auto 20px;
+}
+.form__input{
+    width: 200px;
+    height: 37px;
+    margin-right: 16px;
+    padding: 0 12px 0;
+    background: #E9E9E9;
+    border: 0.5px solid #C6C6C6;
+    box-sizing: border-box;
+    box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.form__input-popup{
+    margin-bottom: 20px
+}
+.form__button{
+    border-radius: 2px;
+    padding: 8px 15px;
+    background-color: white;
+    font-family: Murecho Regular, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1E1E20;
+    border: 0.5px solid #962715;
+    cursor: pointer;
+}
+
+
+.form__button:hover{
+    opacity: .5;
+    transition: opacity .5s;
+}
+
+.form__button:active{
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) ;
+    moz-transform: translatey(3px); /* Для Firefox */ 
+    -ms-transform: translatey(3px); /* Для IE */ 
+    -webkit-transform: translatey(3px); /* Для Safari, Chrome, iOS */ 
+    -o-transform:translatey(3px); /* Для Opera */ 
+    transform: translatey(3px); 
+}
+.feedback__form-popup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feedback__disclaimer{
+    font-family: Murecho Regular, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+    width: 600px;
+}
+.feedback{
+    width: 60%;
+    margin: 100px auto 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .adress__title{
     font-family: var(--global--font-secondary);
     font-size: 12px;
@@ -571,6 +649,7 @@
     letter-spacing: 0.08em;
     text-transform: uppercase;
     margin-bottom: 5px;
+    margin-top: 35px;
 }
 .adress__text{
     font-family: var(--global--font-secondary);
