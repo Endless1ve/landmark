@@ -1,0 +1,14 @@
+.feedback__text{
+    font-family: Murecho Regular, Arial, Helvetica, sans-serif ;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: #000000;
+}
+
+.feedback__text-popup{
+    margin: 30px auto 20px;
+}

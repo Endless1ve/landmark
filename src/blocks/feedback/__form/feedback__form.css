@@ -1,0 +1,8 @@
+@import './__input/form__input.css';
+@import './__button/form__button.css';
+
+.feedback__form-popup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

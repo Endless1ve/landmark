@@ -1,0 +1,5 @@
+@import './__title/direction__title.css';
+@import './__text/direction__text.css';
+.direction{
+    width: 300px;
+}

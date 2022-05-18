@@ -1,0 +1,6 @@
+@import './direction/direction.css';
+
+.content__directions{
+    display: flex;
+    justify-content: space-around;
+}

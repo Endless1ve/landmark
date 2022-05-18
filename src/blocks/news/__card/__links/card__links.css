@@ -1,0 +1,7 @@
+@import './__button/links__button.css';
+@import './__text/links__text.css';
+.card__links{
+    flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}

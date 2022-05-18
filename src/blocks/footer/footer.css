@@ -1,0 +1,11 @@
+@import './__contact/footer__contact.css';
+@import './__nav/footer__nav.css';
+@import './copyright/copyright.css';
+
+.footer{
+    width: 95%;
+    padding-top: 70px;
+    border-top: 1px #962715 solid;
+    margin: 100px auto 0;
+    display: flex;
+}

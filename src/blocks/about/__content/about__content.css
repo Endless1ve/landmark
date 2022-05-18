@@ -1,0 +1,5 @@
+@import './__text/content__text.css';
+@import './__directions/content__directions.css';
+.about__content{
+    width: 45%;
+}

@@ -1,0 +1,7 @@
+@import './__image/social__image.css';
+
+.contact__social{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}

@@ -1,0 +1,9 @@
+@import './__tag/card__tag.css';
+@import './__title/card__title.css';
+@import './__description/card__description.css';
+@import './__links/card__links.css';
+.news__card{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,11 @@
+.text{
+    font-family: var(--global--font-secondary);
+    margin-top: 30px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #1E1E20;
+}
+
+.text:last-child{
+    margin-left: auto;
+}

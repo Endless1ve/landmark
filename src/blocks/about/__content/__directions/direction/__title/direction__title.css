@@ -1,0 +1,8 @@
+@import './__image/title___image.css';
+
+.direction__title{
+    font-family: var(--global--font-third);
+    font-size: 20px;
+    line-height: 140%;
+    color: #962715;
+}
