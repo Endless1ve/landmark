@@ -1,0 +1,28 @@
+.form__button{
+    border-radius: 2px;
+    padding: 8px 15px;
+    background-color: white;
+    font-family: Murecho Regular, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1E1E20;
+    border: 0.5px solid #962715;
+    cursor: pointer;
+}
+
+
+.form__button:hover{
+    opacity: .5;
+    transition: opacity .5s;
+}
+
+.form__button:active{
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) ;
+    moz-transform: translatey(3px); /* Для Firefox */ 
+    -ms-transform: translatey(3px); /* Для IE */ 
+    -webkit-transform: translatey(3px); /* Для Safari, Chrome, iOS */ 
+    -o-transform:translatey(3px); /* Для Opera */ 
+    transform: translatey(3px); 
+}

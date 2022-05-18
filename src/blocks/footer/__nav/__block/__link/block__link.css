@@ -1,0 +1,9 @@
+.block__link{
+    font-family: var(--global--font-secondary);
+    margin-bottom: 12px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #1E1E20;
+}

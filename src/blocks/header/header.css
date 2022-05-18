@@ -15,7 +15,13 @@
  transform: rotate(135deg);
  margin-left: 10px;
  margin-top: 12px;
-}  
+} 
+
+.arrow__link{
+    position: absolute;
+    top: 0;
+    margin: 0;
+}
 
 .menu__element:hover .arrow{
     transform: rotate(-45deg);

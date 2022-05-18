@@ -1,0 +1,9 @@
+.card__title{
+    font-size: 32px;
+    line-height: 130%;
+    color: #FFFEF9;
+    font-family: var(--global--font-third);
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+}

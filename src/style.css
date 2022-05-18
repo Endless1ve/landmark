@@ -3,7 +3,10 @@
 @import './vendor/fonts.css';
 
 @import './blocks/header/header.css';
-
+@import './blocks/about/about.css';
+@import './blocks/news/news.css';
+@import './blocks/feedback/feedback.css';
+@import './blocks/footer/footer.css';
 
 body{
     max-width: 1440px;

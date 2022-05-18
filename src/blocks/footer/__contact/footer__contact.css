@@ -1,0 +1,7 @@
+@import './__adress/contact__adress.css';
+@import './__info/contact__info.css';
+@import './__social/contact__social.css';
+
+.footer__contact{
+    margin-top: 24px;
+}

@@ -1,0 +1,8 @@
+.direction__text{
+    font-family: var(--global--font-third);
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    width: 80%;
+    margin: 0 auto;
+}

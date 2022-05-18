@@ -1,0 +1,8 @@
+.content__text{
+    font-family: var(--global--font-secondary);
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin-top: 0;
+}

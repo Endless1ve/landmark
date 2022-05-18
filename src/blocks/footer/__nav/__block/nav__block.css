@@ -1,0 +1,8 @@
+@import './__link/block__link.css';
+@import './__title/block__title.css';
+.nav__block{
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+    
+}

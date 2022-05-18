@@ -1,0 +1,7 @@
+.info__text{
+    font-family: var(--global--font-secondary);
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.08em;
+    margin: 0 0 5px;
+}

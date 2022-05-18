@@ -1,0 +1,5 @@
+@import './__block/nav__block.css';
+.footer__nav{
+    display: flex;
+    margin-left: auto;
+}

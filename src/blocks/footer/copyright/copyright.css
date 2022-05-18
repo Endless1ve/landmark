@@ -1,0 +1,7 @@
+@import './__line/copyright__line.css';
+@import './__texts/copyright__texts.css';
+.copyright{
+    width: 95%;
+    margin: 0 auto;
+}
+

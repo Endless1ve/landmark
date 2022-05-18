@@ -1,0 +1,10 @@
+.card__description{
+    font-family: var(--global--font-third);
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFEF9;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    margin-bottom: 45px;
+}

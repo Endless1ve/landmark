@@ -1,0 +1,6 @@
+.card__tag{
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFEF9;
+    font-family: var(--global--font-third);
+}

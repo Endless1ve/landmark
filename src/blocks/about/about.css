@@ -1,0 +1,8 @@
+@import './__title/about__title.css';
+@import './__content/about__content.css';
+
+.about{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
